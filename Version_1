@@ -1,0 +1,24 @@
+a = int(input("Enter Your Number 1: "))
+b = int(input("Enter Your Number 2: "))
+
+print("Enter The Type Of Math Needed !")
+
+print("addition = 1")
+print("subtraction = 2")
+print("multiplication = 3")
+print("division = 4")
+
+type = int(input("Enter The Type Of Math Needed !" ))
+
+if type == 1:
+ print (a + b)
+
+elif type == 2:
+ print (a - b)
+
+elif type  == 3:
+ print (a * b)
+
+else:
+ type  == 4
+ print (a / b)
